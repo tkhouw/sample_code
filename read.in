@@ -1,0 +1,34 @@
+?p?		p			mutual benefit  parameter
+?lambda?	lambda			Kang distribution parameter
+?T?		T			transient time
+?sf?		sf			scale-free network boolean
+?a?		a			exponent of configuration model scale-free graph
+?er?		er			Erdos-Renyi boolean
+?r?		r			connection probability for Erdos-Renyi graph
+?N?		N			system size; number of agents
+?mu?		mu			growth parameter
+?breakRate?	breakRate		fraction of bonds to break
+?minDegree?	minDegree		only used for breakrate > 0
+?intensity?	intensity		trickle-down intensity
+?noise?		noise			multiplicative noise for exchange
+?an?		additiveNoise		additive noise for exchange
+?doFit?		doFitness		inequal exchange probabilities boolean
+?doEG?		doExchangeGrowth	pairwise growth boolean
+?hubify?	hubify			hub network boolean
+?cml?		correlationMaxLength	distance for correlation on grid
+?sq?		sq			square lattice boolean
+?rsq?		rsq			interaction range if square lattice
+?f?		f			exchange fraction
+?nzo?		nonzeroOnly		if you want to only count non-zero exchanges (bool)
+?ring?		ring			1D ring lattice (bool)
+?rring?		rring			interaction range on ring
+?sfc?		sfc			scale-free graph made by configuration model (bool)
+?tde?		tde			trickle-down energy-based growth (bool)
+?halfk?		halfk			half the average degree per node in BA model (int)
+?doLearn?	doLearn			whether to do cool ML!
+?lS?		learnStep		1 / (base guess step size)
+?nuke?		nukeLimit		wealth beyond which you personally have lambda=1
+?lW?		loadWealths		std::string filename containing wealths
+?seed?		seed			random number seed (int)
+?nData?		nData			number of data to collect after transient <= T (int)
+?mX?		moreExchanges		whether you want N^2 exchanges per timestep (bool)
